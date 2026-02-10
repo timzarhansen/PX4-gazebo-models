@@ -389,7 +389,7 @@
     </include>
 
     <!-- The wave field -->
-    <plugin filename="libPublisherPlugin.so" name="maritime::PublisherPlugin">
+    <plugin filename="libpublisherplugin.so" name="maritime::PublisherPlugin">
       <message type="gz.msgs.Param" topic="/gazebo/wavefield/parameters"
                every="2.0">
         params {
