@@ -24,7 +24,7 @@
             </parameters>
           </shader>
           <wavefield>
-            <topic>/vrx/wavefield/parameters</topic>
+            <topic>/gazebo/wavefield/parameters</topic>
           </wavefield>
         </plugin>
         <visibility_flags>8</visibility_flags>
