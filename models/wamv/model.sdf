@@ -286,8 +286,8 @@
     <topic>/wamv/right/thruster/joint/cmd_pos</topic>
   </plugin> -->
 
-  <!-- Uncomment to produce buoyancy on the left hull -->
-  <!-- <plugin
+  <!-- Buoyancy on the left hull -->
+  <plugin
     filename="libSurface.so"
     name="maritime::Surface">
     <link_name>base_link</link_name>
@@ -301,10 +301,10 @@
     <wavefield>
       <topic>/gazebo/wavefield/parameters</topic>
     </wavefield>
-  </plugin> -->
+  </plugin>
 
-  <!-- Uncomment to produce buoyancy on the right hull -->
-  <!-- <plugin
+  <!-- Buoyancy on the right hull -->
+  <plugin
     filename="libSurface.so"
     name="maritime::Surface">
     <link_name>base_link</link_name>
@@ -318,7 +318,7 @@
     <wavefield>
       <topic>/gazebo/wavefield/parameters</topic>
     </wavefield>
-  </plugin> -->
+  </plugin>
 
   <!-- Uncomment to enable hydrodynamics -->
   <!-- <plugin
