@@ -288,7 +288,7 @@
 
   <!-- Buoyancy on the left hull -->
   <plugin
-    filename="libSurface.so"
+    filename="libsurface.so"
     name="maritime::Surface">
     <link_name>base_link</link_name>
     <hull_length>4.9</hull_length>
@@ -307,7 +307,7 @@
 
   <!-- Buoyancy on the right hull -->
   <plugin
-    filename="libSurface.so"
+    filename="libsurface.so"
     name="maritime::Surface">
     <link_name>base_link</link_name>
     <hull_length>4.9</hull_length>
