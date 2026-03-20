@@ -295,8 +295,10 @@
     <hull_radius>0.213</hull_radius>
     <fluid_level>0</fluid_level>
     <points>
-      <point>0.6 1.03 0</point>
-      <point>-1.4 1.03 0</point>
+      <point>1.45 1.03 0</point>
+      <point>0.48 1.03 0</point>
+      <point>-0.49 1.03 0</point>
+      <point>-1.46 1.03 0</point>
     </points>
     <wavefield>
       <topic>/gazebo/wavefield/parameters</topic>
@@ -312,8 +314,10 @@
     <hull_radius>0.213</hull_radius>
     <fluid_level>0</fluid_level>
     <points>
-      <point>0.6 -1.03 0</point>
-      <point>-1.4 -1.03 0</point>
+      <point>1.45 -1.03 0</point>
+      <point>0.48 -1.03 0</point>
+      <point>-0.49 -1.03 0</point>
+      <point>-1.46 -1.03 0</point>
     </points>
     <wavefield>
       <topic>/gazebo/wavefield/parameters</topic>
